@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <main>
+        <h1>My Bookmark Page</h1>
+
+    
+        <section id="main-page" class="css-main-page">
+            <div class="first-page">
+                <form class="add-new-bookmarks-forms" id="js-add-new-form">
+                    <button id="js-add-new-button" class="css-add-new-button">+ New</button>
+
+                    <section class="js-filter-by">
+                        <label id="js-filter">Filter By</label>
+                            <select name="filter" id='js-filter-rating'>
+                                <option value="0">All</option>
+                                <option value="1">1 star</option>
+                                <option value="2">2 stars</option>
+                                <option value="3">3 stars</option>
+                                <option value="4">4 stars</option>
+                                <option value="5">5 stars</option>
+                        </select>
+                    </section>
+
+                    <section class="js-add-new-bookmark"></section>
+                </form>
+            </div>
+        </section>
+
+
+        <ul class="js-bookmarks"></ul>
+
+
+
+
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cuid/1.3.8/browser-cuid.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="module" src="index.js"></script>
+    
+    </main>
+</body>
+</html>
